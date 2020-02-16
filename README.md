@@ -15,6 +15,8 @@ Source: https://www.researchgate.net/profile/Kasthurirangan_Gopalakrishnan/publi
 ### Models 1
 In this model we will only train the added fully connected layers.
 
+Five different hyperparameters values were tried, but the accuracy was not changed in any of the scenarios.
+
 ### Models 2
 In this model we will train the added fully connected layers and also the block5 of VGG16.
 
