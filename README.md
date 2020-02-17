@@ -5,6 +5,11 @@ The target of this project is to experiment transfer learning using a Convolutio
 ## Dataset
 The Data set used in this project is the flower dataset (http://download.tensorflow.org/example_images/flower_photos.tgz). This dataset has 5 classes (Daisy, Dandelion, Rese, Sunflower, and Tulip).
 
+## Setup
+There are two important flags:
+* download_pictures: set False if you already have the data set
+* disable_early_stopping: set True if you want to train faster
+
 ## Models
 The  model to be used is VGG16 without the fully connected layers.
 
